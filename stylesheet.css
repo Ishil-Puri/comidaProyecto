@@ -1,7 +1,7 @@
 body {
 
-background: gainsboro url("bodyback.png") repeat fixed;
-
+background: url("assets/background.png");
+background-repeat: repeat;
 font-family: Arial, sans-serif;
 
 }
@@ -46,9 +46,11 @@ height: 125px;
 
 font-family: Eras Demi ITC, sans-serif;
 
-background-image: url("logo.jpg");
+background-image: height:"125px"; border-radius:16px ;
 
 }
+
+
 
 /*navigation*/
 
@@ -79,6 +81,8 @@ text-decoration: none;
 border-top: 2px solid #EB3D00;
 
 border-bottom: 2px solid #432109;
+
+border-radius: 4px;
 
 }
 
