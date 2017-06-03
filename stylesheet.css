@@ -1,0 +1,123 @@
+body {
+
+background: gainsboro url("bodyback.png") repeat fixed;
+
+font-family: Arial, sans-serif;
+
+}
+
+#whole, #head, nav, footer {
+
+text-align: center;
+
+width: 780px;
+
+margin: auto;
+
+}
+
+/*content*/
+
+#whole {
+
+background-color: rgba(255, 255, 255, 0.6);
+
+padding: 20px;
+
+text-align: left;
+
+}
+
+/*logo*/
+
+#head {
+
+background: -webkit-linear-gradient(left top, red , orange, yellow);
+
+background: -o-linear-gradient(bottom right, red , orange, yellow);
+
+background: -moz-linear-gradient(bottom right, red , orange, yellow);
+
+background: linear-gradient(to bottom right, red , orange, yellow);
+
+padding: 1px 20px;
+
+height: 125px;
+
+font-family: Eras Demi ITC, sans-serif;
+
+background-image: url("logo.jpg");
+
+}
+
+/*navigation*/
+
+nav {
+
+font-size: 20px;
+
+padding: 1px 20px;
+
+height: 45px;
+
+background-color: rgba(255, 239, 213, 0.6);
+
+}
+
+nav p {
+
+margin: 10px;
+
+}
+
+nav a {
+
+padding: 5px 20px;
+
+text-decoration: none;
+
+border-top: 2px solid #EB3D00;
+
+border-bottom: 2px solid #432109;
+
+}
+
+nav a:link, nav a:visited {
+
+color: black;
+
+}
+
+nav a:hover, nav a:active {
+
+color: red;
+
+}
+
+/*copyright*/
+
+footer {
+
+font-size: 13px;
+
+height: 30px;
+
+}
+
+footer a {
+
+text-decoration: none;
+
+}
+
+footer a:link, footer a:visited {
+
+color: blue;
+
+}
+
+footer a:hover, footer a:active {
+
+text-decoration: underline;
+
+}
